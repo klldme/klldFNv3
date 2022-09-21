@@ -22,7 +22,7 @@ os.system('clear')
 import klldFNv3
 
 
-client = klldFNv3.PartyBot(
+client = klldFNv3.klldBot(
   device_id=env_vars['DEVICE_ID'],
   account_id=env_vars['ACCOUNT_ID'],
   secret=env_vars['SECRET']
